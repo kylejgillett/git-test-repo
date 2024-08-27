@@ -1,3 +1,19 @@
+
+'''
+    SIMPLE SOUNDERPY BASH SCRIPT
+
+    -- ARGS 
+       -- `site`: BUFKIT site, str, ex: 'KGFK'
+       -- `model`: forecast model, str, ex: 'hrrr'
+       -- `fhr`: model forecast hour, int, ex: 10
+       -- `op`: operation to conduct after loading data, str
+                options are: 'to_file' or 'plot'
+
+    (C) Kyle J Gillett, 2024 
+
+'''
+
+
 print('-------------------------------')
 print('[+] SOUNDERPY | starting up script..')
 
